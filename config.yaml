@@ -15,7 +15,7 @@ languages:
 #    weight: 3
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
-# DefaultContentLanguage: bn
+#DefaultContentLanguage: en
 
 # Allow raw html in markdown file
 markup:
@@ -156,7 +156,7 @@ params:
   enableTags: true
 
   # Specify whether to show flag in the language selector. Default is true.
-  showFlags: true
+  showFlags: false
 
   # If you want to use different country flag for a language, specify them here.
   # flagOverwrites:
