@@ -1,0 +1,20 @@
+# some information about you
+name: "Nick Ruffles"
+nickname: "Nick"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/nick.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "nick@ruffles.dev"
+  phone: "+0123456789"
+  github: thedarthmole
+  linkedin: nickruffles
+
+# some summary about what you do
+summary:
+  - I am a Cloud Native Developer
+  - I am an Ethical Hacker
+  - I am a Devops
+  - I love servers
+  - I work on open-source projects
