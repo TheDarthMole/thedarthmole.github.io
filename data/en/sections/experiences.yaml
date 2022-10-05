@@ -11,54 +11,64 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
+    name: EngineerBetter.
+    url: "https://engineerbetter.com"
+    location: London
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: A Cloud Native consultancy helping organisations move towards Kubernetes, Cloud Foundry, Concourse and BOSH.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Software Engineer
+    start: Aug 2022
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+    - Contribute to OSS (Open Source Software) such as [ESO](https://external-secrets.io)
+    - Migrate existing applications to Kubernetes, Cloud Foundry, Concourse and BOSH.
+    - Pair program with clients and team members
 
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+#  - designation: Junior Software Engineer
+#    start: Nov 2017
+#    end: Oct 2019
+#    responsibilities:
+#    - Implement and test xyz feature for abc tool.
+#    - Support client for abc tool.
+#    - Learn k,d,w technology for xyz.
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    name: University of Sheffield
+    url: "https://sheffield.ac.uk"
+    location: Sheffield
+    overview: Designed, developed and deployed a Ruby on Rails application for tracking PhD researchers through their studies.
   positions:
   - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+    start: Sep 2022
+#    end: Oct 2022
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+      - Liaise with heads of departments to build requirements document
+      - Migrating the application to be used throughout all departments in the University
+      - Update dependencies
+
+  - designation: Software Engineer
+    start: Jun 2021
+    end: Sept 2021
+    responsibilities:
+    - Use the Agile methodology
+    - Update clients of team progress via weekly meetings
+    - Design and create the Rails application for the Engineering department
+    - Deploy the application into production to be used within the university.
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    name: Sheffield Ethical Student Hackers society
+    url: "https://shefesh.com/"
+    location: Sheffield
+    overview: A leader of a successfull society targeted towards educating students about ethical hacking and penetration testing.
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: President
+    start: Jun 2020
+    end: Aug 2022
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Teaching advanced penetration testing techniques
+    - Delegating tasks
+    - Organising and presenting weekly sessions
+    - Collaborated with Industry leaders

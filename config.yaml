@@ -21,7 +21,7 @@ languages:
 markup:
   goldmark:
     renderer:
-      unsafe: false
+      unsafe: true
   tableOfContents:
     startLevel: 2
     endLevel: 6
@@ -125,7 +125,7 @@ params:
 
     # Enable Analytics
     analytics:
-      enabled: true
+      enabled: false
       # Google Analytics
       google:
         id: G-H4LBG7NDFZ
