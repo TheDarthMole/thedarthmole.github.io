@@ -1,6 +1,6 @@
 name: HTML Proofer
 
-# run when a event happen in a PR
+# run when an event happen in a PR or push
 on:
   pull_request:
     branches:
@@ -21,7 +21,7 @@ jobs:
     
     # install Hugo
     - name: Setup Hugo
-      uses: peaceiris/actions-hugo #@v2.5.0
+      uses: peaceiris/actions-hugo@v2.5.0
       with:
         hugo-version: 'latest'
         extended: true
@@ -31,7 +31,7 @@ jobs:
       run: hugo --minify
     
     # Run HTML Proofer
-    - uses: anishathalye/proof-html #@v1.4.1
+    - uses: anishathalye/proof-html@v1.4.1
       with:
         directory: ./public
         enforce_https: false
