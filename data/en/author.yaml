@@ -8,8 +8,8 @@ image: "images/author/nick.png"
 contactInfo:
   email: "nick@ruffles.dev"
 #  phone: "+0123456789"
-  github: thedarthmole
-  linkedin: nickruffles
+  github: TheDarthMole
+  linkedin: NickRuffles
 
 # some summary about what you do
 summary:
