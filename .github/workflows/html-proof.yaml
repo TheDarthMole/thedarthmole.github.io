@@ -1,11 +1,17 @@
 name: HTML Proofer
 
 # run when a event happen in a PR
-on: [pull_request]
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
 
 jobs:
   proof-html:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
     # checkout to the commit that has been pushed
     - uses: actions/checkout@v3
@@ -15,7 +21,7 @@ jobs:
     
     # install Hugo
     - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2.5.0
+      uses: peaceiris/actions-hugo #@v2.5.0
       with:
         hugo-version: 'latest'
         extended: true
@@ -25,7 +31,7 @@ jobs:
       run: hugo --minify
     
     # Run HTML Proofer
-    - uses: anishathalye/proof-html@v1.4.1
+    - uses: anishathalye/proof-html #@v1.4.1
       with:
         directory: ./public
         enforce_https: false
