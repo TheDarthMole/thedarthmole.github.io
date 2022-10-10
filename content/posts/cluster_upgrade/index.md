@@ -12,7 +12,7 @@ author:
     image: /images/author/nick.png
 tags: ["Security", "Kubernetes", "K8s", "Containers", "Upgrade"]
 categories: ["Kubernetes", "Security"]
-hero: yubikey.jpeg
+hero: kube-background.png
 ---
 
 ## Upgrading the controlplane node
