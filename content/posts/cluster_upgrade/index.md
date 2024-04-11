@@ -9,7 +9,7 @@ menu:
         weight: 15
 author:
     name: Nick Ruffles
-    image: /images/author/nick.png
+    image: /images/author/nick.jpg
 tags: ["Security", "Kubernetes", "K8s", "Containers", "Upgrade"]
 categories: ["Kubernetes", "Security"]
 hero: kube-background.png

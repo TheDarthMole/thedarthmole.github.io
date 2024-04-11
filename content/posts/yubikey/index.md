@@ -9,7 +9,7 @@ menu:
         weight: 5
 author:
     name: Nick Ruffles
-    image: /images/author/nick.png
+    image: /images/author/nick.jpg
 tags: ["Security", "YubiKey", "SSH",  "Authentication", "GPG"]
 categories: ["Security"]
 hero: yubikey.jpeg

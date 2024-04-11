@@ -9,7 +9,7 @@ menu:
         weight: 10
 author:
     name: Nick Ruffles
-    image: /images/author/nick.png
+    image: /images/author/nick.jpg
 tags: ["Development", "Git", "Collaborate", "GitHub", "GitLab"]
 categories: ["Git"]
 hero: git-mit-logo.png
