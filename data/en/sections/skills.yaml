@@ -23,7 +23,7 @@ skills:
 
 - name: Cloud Computing
   logo: /images/sections/skills/cloud.png
-  summary: "Deployed applications on major cloud platforms such as AWS and GCP using Terraform"
+  summary: "Deployed applications on major cloud platforms such as AWS and GCP using Terraform."
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
