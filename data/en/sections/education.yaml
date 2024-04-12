@@ -12,14 +12,14 @@ section:
 degrees:
 - name: B.Sc. in Software Engineering, 1st Class with Honors
   icon: fa-graduation-cap
-  timeframe: 2012-2016
+  timeframe: 2019 - 2022
   institution:
     name: University of Sheffield
     url: "https://sheffield.ac.uk"
-#  grade: #(optional)
-#    scale: Grade
-#    achieved: 1st Class with Honors
-#    outOf: 32 mondules
+  grade: #(optional)
+    scale: Grade
+    achieved: 1st Class with Honors
+    outOf: 24 modules
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: true
