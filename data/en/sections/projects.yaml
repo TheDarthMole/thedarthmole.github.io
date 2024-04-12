@@ -14,8 +14,8 @@ buttons:
   filter: "all"
 - name: Professional
   filter: "professional"
-- name: Academic
-  filter: "academic"
+- name: Fun
+  filter: "fun"
 - name: HomeLab
   filter: "homelab"
 
@@ -28,7 +28,25 @@ projects:
   repo: https://github.com/TheDarthMole/UPSWake # If your project is a public repo on GitHub, then provide this link. it will show star count.
 #  url: "https://github.com/TheDarthMole/UPSWake"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: UPSWake reads data from a UPS Nut Server and uses it to dynamically send Wake on Lan packets to servers
-  tags: ["go","homelab"]
+  tags: ["go","homelab", "fun"]
+
+- name: External Secrets Operator
+  logo: /images/sections/projects/eso-round-logo.svg
+  role: Contributor
+  timeline: "October 2023 - Present"
+  repo: https://github.com/external-secrets/external-secrets # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #  url: "https://github.com/external-secrets/external-secrets"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: I helped contribute to External Secrets Operator, which is a Kubernetes operator that integrates external secret management systems
+  tags: ["go","professional"]
+
+- name: Pwn Adventure 3 Hack
+  logo: /images/sections/projects/pwnAdventure3.png
+  role: Creator
+  timeline: "January 2021 - March - 2021"
+  repo: https://github.com/TheDarthMole/PwnAdventure3Hack # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #  url: "https://github.com/TheDarthMole/PwnAdventure3Hack"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: I created a hack for Pwn Adventure 3, a game designed to teach hacking
+  tags: ["c++","fun", "windows"]
 
 #- name: Tensorflow
 #  logo: /images/sections/projects/tensorflow.png
