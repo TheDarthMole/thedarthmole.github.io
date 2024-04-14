@@ -42,11 +42,20 @@ projects:
 - name: Pwn Adventure 3 Hack
   logo: /images/sections/projects/pwnAdventure3.png
   role: Creator
-  timeline: "January 2021 - March - 2021"
+  timeline: "January 2021 - March 2021"
   repo: https://github.com/TheDarthMole/PwnAdventure3Hack # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #  url: "https://github.com/TheDarthMole/PwnAdventure3Hack"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: I created a hack for Pwn Adventure 3, a game designed to teach hacking
   tags: ["c++","fun", "windows"]
+
+- name: Buffer Overflow Prep
+  logo: /images/sections/projects/THMlogo.png
+  role: Creator
+  timeline: "January 2023 - February 2023"
+  repo: https://github.com/TheDarthMole/BufferOverflowPrep # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #  url: "https://github.com/TheDarthMole/BufferOverflowPrep"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: A repo used for learning Buffer Overflows as preparation for the OSCP exam
+  tags: ["python","fun", "professional", "windows"]
 
 #- name: Tensorflow
 #  logo: /images/sections/projects/tensorflow.png
