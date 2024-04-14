@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Engineer
+designation: Cloud Native Engineer
 # your company information
 company:
   name: Container Solutions.
@@ -19,7 +19,7 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a cloud native engineer focused on Kubernetes and cloud native technologies. I have a passion for automation and infrastructure as code. I have experience working with a variety of cloud providers including AWS, GCP and Azure. I have extensive experience working in highly regulated environments and have a strong focus on security and compliance.'
+summary: 'I am a cloud native engineer focused on Kubernetes and cloud native technologies. I have a passion for automation and infrastructure as code. I have experience working with a variety of cloud providers including AWS, GCP and Azure along with extensive experience working in highly regulated environments, with a strong focus on security and compliance.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
