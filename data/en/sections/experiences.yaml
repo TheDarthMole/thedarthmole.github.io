@@ -11,18 +11,28 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: EngineerBetter.
-    url: "https://engineerbetter.com"
+    name: Container Solutions.
+    url: "https://container-solutions.com"
     location: London
     # company overview
-    overview: A Cloud Native consultancy helping organisations move towards Kubernetes, Cloud Foundry, Concourse and BOSH.
+    overview: A Cloud Native consultancy helping to transform organisation's infrastructure to be cloud native.
   positions:
+  - designation: Cloud Native Engineer
+    start: Apr 2024
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    responsibilities:
+    - Working within a highly regulated UK environment
+    - Leading the design & implementation of the testing strategy for the client's Internal Development Platform
+    - Supported a team as a Java specialist to debug microservices not starting
   - designation: Software Engineer
     start: Aug 2022
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
+    end: Apr 2024
     # give some points about what was your responsibilities at the company.
     responsibilities:
+    - Worked within a highly regulated swiss environment
+    - Lead the implementation and maintenance of a Terraform Enterprise environment
+    - Implemented security policies using Wiz for Azure
+    - Curated a collection of end-to-end tested Azure Terraform modules
     - Contribute to OSS (Open Source Software) such as [ESO](https://external-secrets.io)
     - Migrate existing applications to Kubernetes, Cloud Foundry, Concourse and BOSH.
     - Pair program with clients and team members
